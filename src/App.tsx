@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import VideoOverview from './components/VideoOverview';
 import Features from './components/Features';
 import Stats from './components/Stats';
 import HowItWorks from './components/HowItWorks';
@@ -12,6 +13,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <VideoOverview />
       <Features />
       <Stats />
       <HowItWorks />
