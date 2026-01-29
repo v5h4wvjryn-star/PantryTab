@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <img src="/logo.png" alt="Pantry Tab" className="h-10 w-auto mb-4 brightness-0 invert" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Pantry Tab" className="h-10 w-auto mb-4 brightness-0 invert" />
             <p className="text-sm leading-relaxed">
               Your kitchen companion. Track inventory, plan meals, compare prices, and reduce food waste.
             </p>
