@@ -20,9 +20,6 @@ export default function CTA() {
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>
-        <p className="mt-4 text-sm text-gray-500">
-          Free forever for personal use. Upgrade anytime for premium features.
-        </p>
       </div>
     </section>
   );
