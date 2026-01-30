@@ -43,7 +43,7 @@ export default function Hero() {
           <div className="mt-10 flex items-center justify-center gap-6 text-sm text-gray-500">
             <span className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-green-brand"></span>
-              Free to use
+              Free Trial
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-green-brand"></span>
