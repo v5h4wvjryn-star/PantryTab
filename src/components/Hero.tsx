@@ -39,6 +39,15 @@ export default function Hero() {
               See Features
             </a>
           </div>
+          <p className="mt-4 text-xs text-gray-400">
+            By signing up, you agree to our{' '}
+            <a href="/terms-of-service" className="underline hover:text-gray-600 transition-colors">Terms of Service</a>
+            {', '}
+            <a href="/privacy-policy" className="underline hover:text-gray-600 transition-colors">Privacy Policy</a>
+            {', and '}
+            <a href="/allergy-disclaimer" className="underline hover:text-gray-600 transition-colors">Allergy &amp; Food Safety Disclaimer</a>
+            .
+          </p>
 
           <div className="mt-10 flex items-center justify-center gap-6 text-sm text-gray-500">
             <span className="flex items-center gap-1.5">

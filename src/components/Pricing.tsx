@@ -108,6 +108,15 @@ export default function Pricing() {
               >
                 {plan.cta}
               </a>
+              <p className={`mt-3 text-xs text-center leading-relaxed ${plan.featured ? 'text-green-200' : 'text-gray-400'}`}>
+                By signing up, you agree to our{' '}
+                <a href="/terms-of-service" className="underline">Terms of Service</a>
+                {', '}
+                <a href="/privacy-policy" className="underline">Privacy Policy</a>
+                {', and '}
+                <a href="/allergy-disclaimer" className="underline">Allergy &amp; Food Safety Disclaimer</a>
+                .
+              </p>
             </div>
           ))}
         </div>
