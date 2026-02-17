@@ -54,6 +54,11 @@ export default function Footer() {
                   Allergy &amp; Food Safety Disclaimer
                 </Link>
               </li>
+              <li>
+                <Link to="/refund-cancellation-policy" className="hover:text-white transition-colors">
+                  Refund &amp; Cancellation Policy
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
