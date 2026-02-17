@@ -58,6 +58,9 @@ export default function LegalLayout({
             <Link to="/allergy-disclaimer" className="hover:text-gray-900 transition-colors">
               Allergy &amp; Food Safety Disclaimer
             </Link>
+            <Link to="/refund-cancellation-policy" className="hover:text-gray-900 transition-colors">
+              Refund &amp; Cancellation Policy
+            </Link>
           </div>
           <p>&copy; {year} Pantry Tab LLC. All rights reserved.</p>
         </div>
