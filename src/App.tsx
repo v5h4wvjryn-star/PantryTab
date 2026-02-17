@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import AllergyDisclaimer from './pages/AllergyDisclaimer';
+import RefundPolicy from './pages/RefundPolicy';
 
 function LandingPage() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/allergy-disclaimer" element={<AllergyDisclaimer />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
       </Routes>
     </BrowserRouter>
   );
