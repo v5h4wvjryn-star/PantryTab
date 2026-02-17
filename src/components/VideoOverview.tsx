@@ -15,7 +15,7 @@ export default function VideoOverview() {
         <div className="max-w-4xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900 aspect-video">
             <iframe
-              src="https://www.youtube.com/embed/MunGZfpzEvA"
+              src="https://www.youtube.com/embed/BpnzBATGXYI"
               title="Pantry Tab Overview"
               className="w-full h-full"
               frameBorder="0"
