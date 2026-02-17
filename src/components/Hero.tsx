@@ -26,10 +26,10 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#get-started"
+              href="https://app.pantrytab.com/login?signup=true"
               className="inline-flex items-center justify-center gap-2 bg-orange-brand hover:bg-orange-dark text-white px-8 py-3.5 rounded-xl font-semibold text-lg transition-colors shadow-lg shadow-orange-brand/25"
             >
-              Get Started Free
+              Start Using Pantry Tab
               <ArrowRight className="w-5 h-5" />
             </a>
             <a

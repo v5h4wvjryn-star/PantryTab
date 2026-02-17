@@ -99,7 +99,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="#get-started"
+                href="https://app.pantrytab.com/login?signup=true"
                 className={`mt-8 block text-center py-3 rounded-xl font-semibold transition-colors ${
                   plan.featured
                     ? 'bg-white text-green-brand hover:bg-gray-100'

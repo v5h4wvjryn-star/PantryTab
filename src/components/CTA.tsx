@@ -13,7 +13,7 @@ export default function CTA() {
         </p>
         <div className="mt-10">
           <a
-            href="#"
+            href="https://app.pantrytab.com/login?signup=true"
             className="inline-flex items-center justify-center gap-2 bg-orange-brand hover:bg-orange-dark text-white px-10 py-4 rounded-xl font-semibold text-lg transition-colors shadow-lg shadow-orange-brand/25"
           >
             Start Using Pantry Tab

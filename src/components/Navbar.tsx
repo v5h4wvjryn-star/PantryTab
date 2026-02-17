@@ -17,7 +17,13 @@ export default function Navbar() {
             <a href="#how-it-works" className="text-gray-600 hover:text-green-brand transition-colors font-medium">How It Works</a>
             <a href="#pricing" className="text-gray-600 hover:text-green-brand transition-colors font-medium">Pricing</a>
             <a
-              href="#get-started"
+              href="https://app.pantrytab.com/login"
+              className="text-gray-600 hover:text-green-brand transition-colors font-medium"
+            >
+              Login
+            </a>
+            <a
+              href="https://app.pantrytab.com/login?signup=true"
               className="bg-orange-brand hover:bg-orange-dark text-white px-5 py-2 rounded-lg font-semibold transition-colors"
             >
               Get Started Free
@@ -36,7 +42,14 @@ export default function Navbar() {
           <a href="#how-it-works" className="block py-2 text-gray-600 hover:text-green-brand font-medium" onClick={() => setOpen(false)}>How It Works</a>
           <a href="#pricing" className="block py-2 text-gray-600 hover:text-green-brand font-medium" onClick={() => setOpen(false)}>Pricing</a>
           <a
-            href="#get-started"
+            href="https://app.pantrytab.com/login"
+            className="block py-2 text-gray-600 hover:text-green-brand font-medium"
+            onClick={() => setOpen(false)}
+          >
+            Login
+          </a>
+          <a
+            href="https://app.pantrytab.com/login?signup=true"
             className="block bg-orange-brand hover:bg-orange-dark text-white text-center px-5 py-2.5 rounded-lg font-semibold transition-colors"
             onClick={() => setOpen(false)}
           >
