@@ -1,54 +1,56 @@
+// PT_WWW_V3 — every card below describes a SHIPPED feature.
+// Verify against the live app before adding anything here.
 import {
-  PackageOpen,
-  CalendarClock,
   ShoppingCart,
+  Camera,
   ChefHat,
+  ShieldCheck,
+  CalendarClock,
   BadgeDollarSign,
-  BellRing,
 } from 'lucide-react';
 
 const features = [
   {
-    icon: PackageOpen,
-    title: 'Pantry Inventory',
+    icon: ShoppingCart,
+    title: 'Send Your List to Kroger',
     description:
-      'Keep a real-time inventory of everything in your pantry, fridge, and freezer. Always know what you have on hand.',
-    color: 'bg-green-light text-green-brand',
-  },
-  {
-    icon: CalendarClock,
-    title: 'Expiration Tracking',
-    description:
-      'Get alerts before items expire. Reduce food waste and save money by using ingredients while they\'re still fresh.',
+      'Connect your Kroger account and push your grocery list straight into a pickup cart. No retyping, no switching apps — your pantry builds the list, Kroger fills the order.',
     color: 'bg-orange-light text-orange-brand',
   },
   {
-    icon: ShoppingCart,
-    title: 'Smart Shopping Lists',
+    icon: Camera,
+    title: 'Photograph Your Shelf',
     description:
-      'Auto-generate shopping lists based on what\'s running low or what you need for upcoming meals. Never forget an item again.',
+      'Point your phone at a shelf, fridge, or receipt. Pantry Tab reads it and adds every item for you. Barcode scanning too, when you want it.',
     color: 'bg-green-light text-green-brand',
   },
   {
     icon: ChefHat,
-    title: 'Recipe & Meal Planning',
+    title: 'Batch-Cook Your Week',
     description:
-      'Plan meals for the week using recipes matched to what you already have. Discover new dishes with your current ingredients.',
+      'Tag the meals you want to prep ahead — gym lunches, weekday dinners — and get one cook sheet. Consolidated prep list, a timeline that cooks the stir-fry while the pork bakes, plus storage and reheat notes for every container.',
+    color: 'bg-orange-light text-orange-brand',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Allergy Protection That Actually Reads Labels',
+    description:
+      'Set allergies for each person in your household. Unsafe recipes are excluded from your plan entirely — and hidden allergens get caught in ingredients you would not think to check.',
+    color: 'bg-green-light text-green-brand',
+  },
+  {
+    icon: CalendarClock,
+    title: 'Meal Plans From What You Own',
+    description:
+      'Plan a full week in one click. Suggestions come from what is actually in your kitchen, prioritising ingredients that expire soonest.',
     color: 'bg-orange-light text-orange-brand',
   },
   {
     icon: BadgeDollarSign,
-    title: 'Price Comparison',
+    title: 'Expiry Alerts & Reorder Points',
     description:
-      'Compare crowdsourced prices across stores to spot savings. Track spending over time.',
+      'Know what is about to go off before it does. Set reorder points on staples and they land on your grocery list automatically.',
     color: 'bg-green-light text-green-brand',
-  },
-  {
-    icon: BellRing,
-    title: 'Smart Notifications',
-    description:
-      'Timely reminders for expiring items, low-stock essentials, and weekly meal prep — so nothing slips through the cracks.',
-    color: 'bg-orange-light text-orange-brand',
   },
 ];
 
@@ -61,7 +63,7 @@ export default function Features() {
             Everything you need to run your kitchen
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            From tracking what's in your pantry to planning every meal — Pantry Tab has you covered.
+            From a photo of your shelf to a cart at your grocery store — Pantry Tab closes the loop.
           </p>
         </div>
 

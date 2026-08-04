@@ -1,29 +1,30 @@
-import { UserPlus, ScanBarcode, Utensils, TrendingDown } from 'lucide-react';
+// PT_WWW_V3
+import { UserPlus, Camera, CalendarCheck, ShoppingCart } from 'lucide-react';
 
 const steps = [
   {
     icon: UserPlus,
     step: '1',
     title: 'Create Your Account',
-    description: 'Sign up in seconds — no credit card needed. Start building your kitchen profile right away.',
+    description: 'Sign up in seconds — no credit card needed. Add anyone in your household and their allergies.',
   },
   {
-    icon: ScanBarcode,
+    icon: Camera,
     step: '2',
-    title: 'Add Your Items',
-    description: 'Quickly add pantry, fridge, and freezer items. Set quantities and expiration dates to stay organized.',
+    title: 'Photograph Your Shelf',
+    description: 'Snap your pantry, fridge, or a receipt. Pantry Tab reads it and fills in your inventory — no typing required.',
   },
   {
-    icon: Utensils,
+    icon: CalendarCheck,
     step: '3',
-    title: 'Plan Meals & Shop Smart',
-    description: 'Get recipe suggestions based on what you have. Generate shopping lists and compare prices across stores.',
+    title: 'Plan Your Week',
+    description: 'Get a full meal plan built from what you already own, with expiring ingredients used first and unsafe recipes filtered out.',
   },
   {
-    icon: TrendingDown,
+    icon: ShoppingCart,
     step: '4',
-    title: 'Waste Less, Save More',
-    description: 'Receive timely alerts before food expires. Track your spending and watch the savings add up over time.',
+    title: 'Send It to the Store',
+    description: 'Your grocery list builds itself from the gaps. Push it straight to a Kroger pickup cart and go collect it.',
   },
 ];
 
