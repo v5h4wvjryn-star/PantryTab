@@ -40,7 +40,7 @@ const features = [
     icon: BadgeDollarSign,
     title: 'Price Comparison',
     description:
-      'Compare crowdsourced prices across stores to spot savings. Track spending over time.',
+      'Compare prices across stores so you always get the best deal. Track spending and identify savings opportunities.',
     color: 'bg-green-light text-green-brand',
   },
   {

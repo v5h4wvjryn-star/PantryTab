@@ -1,14 +1,14 @@
-// PT_WWW_V2 — third-party statistics only. No unsourced PantryTab claims.
 const stats = [
   { value: '40%', label: 'of food in the U.S. goes to waste each year' },
   { value: '$1,500+', label: 'wasted per household annually on thrown-out groceries' },
+  { value: '30 min', label: 'saved per week on meal planning & shopping' },
 ];
 
 export default function Stats() {
   return (
     <section className="py-16 bg-green-brand">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid sm:grid-cols-2 gap-8 text-center max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-3 gap-8 text-center">
           {stats.map((s) => (
             <div key={s.label}>
               <div className="text-4xl sm:text-5xl font-extrabold text-white">{s.value}</div>
@@ -16,9 +16,6 @@ export default function Stats() {
             </div>
           ))}
         </div>
-        <p className="mt-8 text-center text-xs text-green-200">
-          Source: USDA and EPA estimates on U.S. household food waste.
-        </p>
       </div>
     </section>
   );
